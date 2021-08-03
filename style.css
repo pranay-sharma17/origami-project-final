@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+    color: white;
+}
+
+.header{
+    background-color: black;
+    
+    
+}
+  
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.item{
+    background: color #473bfe;;
+}
+    
+
+.img{
+    border: double;
+    border-radius: 20px;
+    background-color: ffffff;
+
+}
+ h2{
+    text-align:center;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: purple;
+}
+.menu{
+    margin-right:40px;
+}
+.menu a{
+    margin-left:20px;
+}
+.item p{
+position:inherit;
+top:30%
+}
+.item:hover p{
+    opacity:1;
+}
+.item:hover img{
+    
+    transform:scale(1.2);
+}       
